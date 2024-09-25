@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch LiSA Another Great Day | Netflix Official Site</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8d5a855348.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.netflix.com/co-en/title/81486328" class="logo"><img src="assets/images/logo.svg"
+                alt="Netflix logo"></a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Recently Added</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="bg"></div>
+        <div class="info-container">
+            <img src="assets/images/logo.png" class="title-logo" alt="LiSA Another Great Day logo">
+            <h1>LiSA Another Great Day</h1>
+            <h4>
+                <span>2022</span>
+                <span><i>13+</i></span>
+                <span>1h 37m</span>
+                <span><a href="#">Documentary</a></span>
+            </h4>
+            <p>Glimpse into the world of the songstress known as the "Rock Heroine" as she reflects on the first decade
+                of her career and looks to the future.</p>
+            <span>Starring: <em>LiSA</em></span>
+            <div class="buttons">
+                <button href="#"><i class="fa-solid fa-play"></i>Play</button>
+                <button href="#"><i class="fa-solid fa-plus"></i>My List</button>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><i class="fa-solid fa-circle-play"></i>Trailer: LiSA Another Great
+            Day</a>
+    </div>
+    <div class="trailer" onclick="closeVideo(event);">
+        <div class="video-container">
+            <div class="video">
+                <div class="title">
+                    <h4>Trailer: LiSA Another Great Day</h4>
+                    <a class="close" onclick="toggleVideo();"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <video src="assets/videos/LiSA Another Great Day - Official Trailer.mp4" controls="true"></video>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
